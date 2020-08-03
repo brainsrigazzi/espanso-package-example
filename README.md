@@ -1,4 +1,4 @@
-# espanso-package-example
-An example on how to create an espanso package.
+# Obsidian-note-template
+An espanso trigger for Obsidian.
 
 For more information, read the [documentation](https://espanso.org/docs/)
