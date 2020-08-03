@@ -1,8 +1,32 @@
 # Simple package
 
-name: simple-package 
+name: note-template 
 parent: default
 
 matches:
-  - trigger: ":hw"
-    replace: "hello world"
+  - trigger: ":t"
+    replace: "*Title:*
+              *Card Address:*
+              *Date:*
+              *Tags:*
+              
+              ---
+              ##### Notes
+
+              ---
+              ##### Extra Thoughts
+
+              ---
+              ##### New Questions
+
+              ---
+              **Related Notes**
+
+              ---
+              **Pictures**
+
+              ---
+              **Copy Pasta**
+
+              ---
+              **External Links**"
